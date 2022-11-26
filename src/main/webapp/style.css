@@ -1,0 +1,191 @@
+body {
+	background-color: #494949 !important;
+	margin: 0;
+}
+
+
+
+.main {
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main > h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 3vw;
+}
+
+.bookmark {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 6rem;
+}
+
+.bookmark-card {
+    width: 4rem;
+    height: 6rem;
+}
+.bookmark-card:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.bookmark-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookmark-icon > span {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #393E46;
+    color: #fff;
+}
+
+.bookmark-text {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+.search-results {
+    width: 70%;
+    height:  auto;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+
+.search-results-container {
+    width: 100%;
+    padding: 5px;
+    height: auto;
+}
+
+.search-res-card {
+    width: 100%;
+    height: 4rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+}
+
+.s-title {
+    font-size: 20px;
+    color: #0d6efd;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.s-link {
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+}
+
+.controls {
+    width: 7rem;
+    height: 3rem;
+    display: flex;
+    position: absolute;
+    top: 42px;
+    right: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.control {
+    border: 1px solid;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.control:hover {
+    cursor: pointer;
+    color: #393E46;
+    background-color: #fff;
+}
+
+
+.history-container {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.history-card {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border: 0.5px #fff;
+    border-radius: 12px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.history-item {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    margin-top: 8px;
+    padding-top: 10px;
+}
+
+.history-title {
+    color: #fff;
+    border-bottom: 0.5px solid #fff;
+}
+
+.history-item > div {
+    margin-right: 15px;
+}
+
+.history-item .time {
+    color: #C7BCA1;
+    font-weight: bold;
+}
+
+.history-item .title {
+    color: #fff;
+}
+
+.history-item .link {
+    color: #C7BCA1;
+}
